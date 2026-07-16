@@ -1,0 +1,10 @@
+# Ignore local database
+employees.db
+
+# Ignore local uploaded images (keep the directory but ignore files)
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
